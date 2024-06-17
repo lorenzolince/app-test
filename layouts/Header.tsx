@@ -35,6 +35,9 @@ const Header: React.FC<Header> = ({ subscribe }: Header) => {
                             <div className="columns-2">
                                 <Link className="text-white hover:bg-gray-700 rounded" href="/dashboard">dashboard</Link>
                             </div>
+                            <div className="columns-2">
+                                <Link className="text-white hover:bg-gray-700 rounded" href="/paises">paises</Link>
+                            </div>
                         </> : ""
                 }
 
